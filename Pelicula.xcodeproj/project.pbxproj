@@ -14,6 +14,8 @@
 		3D89D63A2332D2B800874A00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D89D6382332D2B800874A00 /* LaunchScreen.storyboard */; };
 		3D89D6452332D2B800874A00 /* PeliculaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D89D6442332D2B800874A00 /* PeliculaTests.swift */; };
 		3D89D6502332D2B800874A00 /* PeliculaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D89D64F2332D2B800874A00 /* PeliculaUITests.swift */; };
+		3D89D6622332D49500874A00 /* Pelicula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D89D6612332D49500874A00 /* Pelicula.swift */; };
+		3D89D6652332D7F000874A00 /* PeliculaCelda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D89D6642332D7F000874A00 /* PeliculaCelda.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3D89D64B2332D2B800874A00 /* PeliculaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeliculaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D89D64F2332D2B800874A00 /* PeliculaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeliculaUITests.swift; sourceTree = "<group>"; };
 		3D89D6512332D2B800874A00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D89D6612332D49500874A00 /* Pelicula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pelicula.swift; sourceTree = "<group>"; };
+		3D89D6642332D7F000874A00 /* PeliculaCelda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeliculaCelda.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,10 @@
 		3D89D62E2332D2B700874A00 /* Pelicula */ = {
 			isa = PBXGroup;
 			children = (
+				3D89D6602332D44000874A00 /* Models */,
+				3D89D65F2332D43000874A00 /* Resources */,
+				3D89D65E2332D40900874A00 /* ViewController */,
+				3D89D65D2332D3E500874A00 /* Storyboards */,
 				3D89D62F2332D2B700874A00 /* AppDelegate.swift */,
 				3D89D6312332D2B700874A00 /* ViewController.swift */,
 				3D89D6332332D2B700874A00 /* Main.storyboard */,
@@ -123,6 +131,44 @@
 				3D89D6512332D2B800874A00 /* Info.plist */,
 			);
 			path = PeliculaUITests;
+			sourceTree = "<group>";
+		};
+		3D89D65D2332D3E500874A00 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		3D89D65E2332D40900874A00 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3D89D6632332D7D700874A00 /* New Group */,
+				3D89D6642332D7F000874A00 /* PeliculaCelda.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3D89D65F2332D43000874A00 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3D89D6602332D44000874A00 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D89D6612332D49500874A00 /* Pelicula.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3D89D6632332D7D700874A00 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +302,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D89D6622332D49500874A00 /* Pelicula.swift in Sources */,
 				3D89D6322332D2B700874A00 /* ViewController.swift in Sources */,
+				3D89D6652332D7F000874A00 /* PeliculaCelda.swift in Sources */,
 				3D89D6302332D2B700874A00 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
